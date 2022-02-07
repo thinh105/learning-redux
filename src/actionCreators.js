@@ -1,4 +1,6 @@
-import { TODO_ADD, TODO_TOGLE, FILTER_SET } from "./actionTypes";
+export const TODO_ADD = "TODO_ADD";
+export const TODO_TOGLE = "TODO_TOGLE";
+export const FILTER_SET = "FILTER_SET";
 
 export const doAddTodo = (id, name) => ({ type: TODO_ADD, todo: { id, name } });
 export const doToggleTodo = (id) => ({ type: TODO_TOGLE, todo: { id } });

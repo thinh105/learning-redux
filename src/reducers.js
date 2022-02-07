@@ -1,4 +1,4 @@
-import { TODO_ADD, TODO_TOGLE, FILTER_SET } from "./actionTypes";
+import { TODO_ADD, TODO_TOGLE, FILTER_SET } from "./actionCreators";
 
 const intialTodos = [
   {
